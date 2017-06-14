@@ -60,7 +60,7 @@ header{
 	font-weight: bolder;
 	font-size: 2.8em;
 }
-.service-tittle h4, .portfolio-tittle h4{
+.service-tittle h4, .portfolio-tittle h4, .portfolio-box p{
 	font-style: italic;
 	color: #848484;
 	margin: 30px;
@@ -85,7 +85,23 @@ header{
 /*PORTFOLIO*/
 .portfolio{
 	background-color: #D8D8D8;
-	padding: 0;
+	width: 100%;
+	padding: 20px;
+
+}
+.portfolio-box img{
+	height: 50vh;
+	width: 100%;
+}
+.portfolio-box p, .portfolio-box h6{
+	background-color: white;
+	padding: 10px; 
 	margin: 0;
-	width: 100%
+}
+.portfolio-box h6{
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+.portfolio-box p{
+margin-bottom: 30px;
 }
