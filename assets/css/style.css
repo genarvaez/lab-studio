@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background: url('../img/header-bg.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	background-color: transparent;
+	border: none;
+	height: 60px;
+	padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #FFBF00;
+}
+.navbar-default .navbar-brand{
+	color: #FFBF00;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+	padding-left: 40px;
+}
+/*HOME*/
+.home-box h3, h1{
+	color: white;
+	font-weight: bolder;
+}
+.home-box h3{
+	margin-top: 200px;
+	font-size: 3.4em;
+	font-family: 'Spectral', serif;
+	font-style: italic;
+}
+.home-box h1{
+	font-size: 5.2em;
+}
+.home-box button{
+	color: white;
+	font-weight: bolder;
+	font-size: 1.5em;
+	width: 240px;
+	background-color: #FACC2E;
+	height: 70px;
+	border: none;
+	border-radius: 5px;
+}
+/*SERVICES*/
+.service-tittle, .portfolio-tittle{
+	margin-top: 100px;
+}
+.service-tittle h2, .portfolio-tittle h2{
+	font-weight: bolder;
+	font-size: 2.8em;
+}
+.service-tittle h4, .portfolio-tittle h4{
+	font-style: italic;
+	color: #848484;
+	margin: 30px;
+}
+.service-box{
+	padding-top: 80px;
+}
+.service-box button{
+	background-color: #FACC2E;
+	border-radius: 100%;
+	border: none;
+	width: 100px;
+	height: 100px;	
+}
+.service-box button i{
+	color: white;
+}
+.service-box p{
+	margin: 20px 20px 150px;
+	color: #848484;
+}
+/*PORTFOLIO*/
+.portfolio{
+	background-color: #D8D8D8;
+	padding: 0;
+	margin: 0;
+	width: 100%
+}
