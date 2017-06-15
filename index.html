@@ -9,34 +9,39 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Spectral:400i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" id="navbar"> 
   			<div class="container-fluid">
   				<div class="row">
-	  			    <div class="navbar-header">
+  					<div class="col-md-6">
+	  			    <div class="navbar-header nav-bar">
 	     				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	       					<span class="sr-only">Toggle navigation</span>
 	        				<span class="icon-bar"></span>
 	        				<span class="icon-bar"></span>
 	        				<span class="icon-bar"></span>
 	      				</button>
-	      			<div class="col-md-12 logo">
-	      				<a class="navbar-brand" href="#">Start Bootstrapt</a>
-	      			</div>
-	    			</div>	
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	        			<ul class="nav navbar-nav navbar-right">
-		        			<li><a href="#">SERVICES</a></li>
-		        			<li><a href="#">PORTFOLIO</a></li>
-		        			<li><a href="#">ABOUT</a></li>
-		        			<li><a href="#">TEAM</a></li>
-		        			<li><a href="#">CONTACT</a></li>
+		      			<div class="prueba">
+		      				<a class="navbar-brand" href="#">Start Bootstrapt</a>
+		      			</div>
+	    			</div>
+					</div>
+					<div class="col-md-6">
+				    <div class="collapse navbar-collapse nav-bar link" id="bs-example-navbar-collapse-1">
+	        			<ul class="nav navbar-nav navbar-right ">
+		        			<li><a href="#services" id="services-link">SERVICES</a></li>
+		        			<li><a href="#portfolio" id="portfolio-link">PORTFOLIO</a></li>
+		        			<li><a href="#about" id="about-link">ABOUT</a></li>
+		        			<li><a href="#team" id="team-link">TEAM</a></li>
+		        			<li><a href="#contact" id="ccontact-link">CONTACT</a></li>
 	        			</ul>
 	    			</div><!-- /.navbar-collapse -->
+    			</div>
     			</div>
   			</div><!-- /.container-fluid -->
 		</nav>
@@ -50,7 +55,7 @@
 			</div>
 		</section>
 	</header>
-	<section class="services container">
+	<section class="services container" id="services">
 		<div class="row text-center">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service-tittle">
 				<h2>SERVICES</h2>
@@ -75,11 +80,11 @@
 			</div>
 		</div>
 	</section>
-	<section class="portfolio container">
+	<section class="portfolio container" id="portfolio">
 		<div class="row text-center">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 portfolio-tittle">
 				<h2>PORTFOLIO</h2>
-				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>			
+				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>		
 			</div>
 		</div>
 		<div class="row text-center">
@@ -117,7 +122,189 @@
 			</div>
 		</div>
 	</section>
+	<section class="about container" id="about">
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-tittle">
+				<h2>ABOUT</h2>
+				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 about-box right">
+				<h2>2009-2011</h2>
+				<h4>Our Humble Beginnings</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ut iure, iste provident ad incidunt nemo doloribus ab autem architecto facere sequi et laboriosam eveniet, impedit nostrum ullam! Eveniet, explicabo.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4  col-lg-4 about-box">
+				<img src="assets/img/1.jpg" alt="sunset">
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-4 col-lg-4 about-box">
+				<img src="assets/img/2.jpg" alt="sunset">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 about-box left">
+				<h2>MARCH 2011</h2>
+				<h4>An Agency is Born</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ut iure, iste provident ad incidunt nemo doloribus ab autem architecto facere sequi et laboriosam eveniet, impedit nostrum ullam! Eveniet, explicabo.</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 about-box right">
+				<h2>DECEMBER 2012</h2>
+				<h4>Transition To Full Service</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ut iure, iste provident ad incidunt nemo doloribus ab autem architecto facere sequi et laboriosam eveniet, impedit nostrum ullam! Eveniet, explicabo.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4  col-lg-4 about-box">
+				<img src="assets/img/3.jpg" alt="sunset">
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-4 col-lg-4 about-box">
+				<img src="assets/img/4.jpg" alt="sunset">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 about-box left">
+				<h2>MARCH 2011</h2>
+				<h4>An Agency is Born</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ut iure, iste provident ad incidunt nemo doloribus ab autem architecto facere sequi et laboriosam eveniet, impedit nostrum ullam! Eveniet, explicabo.</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about-box">
+				<button>BE PART<br> OF OUR <br>STORY!</button>
+			</div>
+		</div>
+	</section>
+	<section class="team" id="team">
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 team-tittle">
+				<h2>OUR AMAZING TEAM</h2>
+				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 team-box">
+				<img src="assets/img/1 (1).jpg" alt="">
+				<h2>Kay Garlad</h2>
+				<h4>Lead Designer</h4>
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-offset-3 col-md-3 col-lg-2">
+						<button><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+						<button><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2	">
+						<button><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 team-box">
+				<img src="assets/img/2 (1).jpg" alt="">
+				<h2>Larry Parker</h2>
+				<h4>Lead Marketer</h4>
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-offset-3 col-md-3 col-lg-2">
+						<button><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+						<button><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2	">
+						<button><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 team-box">
+				<img src="assets/img/3 (1).jpg" alt="">
+				<h2>Diana Petersen</h2>
+				<h4>Lead Developer</h4>
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-offset-3 col-md-2 col-lg-2">
+						<button><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+						<button><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2	">
+						<button><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center team-box">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sunt tenetur dignissimos, modi cumque atque vero? Fugiat ut obcaecati dolorum temporibus consequatur inventore, nostrum voluptas dolores autem ullam, magni quidem!</p>
+			</div>
+		</div>
+	</section>
+	<section class="banner container">
+		<div class="row text-center banner">
+			<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+				<img src="assets/img/envato.jpg" alt="envato">
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+				<img src="assets/img/designmodo.jpg" alt="designmodo">
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+				<img src="assets/img/themeforest.jpg" alt="themeforest">
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+				<img src="assets/img/creative-market.jpg" alt="creative">
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="conteiner-fluid bg-contact">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contact-tittle">
+					<h2>CONTACT US</h2>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-box">
+					<form action="">
+						<input type="text" placeholder="YOUR NAME*">
+						<input type="text" placeholder="YOUR EMAIL*">
+						<input type="text" placeholder="YOUR PHONE*">
+					</form>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-box">
+					<textarea cols="20" rows="10" placeholder="YOUR MESSAGE*"></textarea>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contact-box">
+					<button>SEND MESSAGE</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container">
+		<div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-14 footer-box">
+				<p>Copyright &copy Your WebSite 2016</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-14">
+				<div class="row text-center footer-box">
+					<div class="col-xs-4 col-sm-2 col-md-offset-3 col-md-2 col-lg-2">
+						<button><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+						<button><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2	">
+						<button><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-14 footer-box">
+				<a href="">Privacy Police</a>
+				<a href="">Terms of Use</a>
+			</div>
+		</div>
+	</footer>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
